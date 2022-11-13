@@ -1,0 +1,32 @@
+.products-tittle {
+  text-align: center;
+  padding: 1rem 0rem;
+  h1,
+  h2 {
+    font-size: 4rem;
+    font-weight: 700;
+    color: $color1;
+  }
+}
+
+.brunch-img {
+  clip-path: $brunch-clippy;
+}
+
+.products-text {
+  font-size: 2.5rem;
+  text-align: justify;
+  padding: 2rem;
+}
+
+.dark h1,
+.dark .products-text  {
+  color: $color5;
+}
+
+@media (max-width: 767px) {
+  .navbar-toggler {
+    font-size: 2.5rem;
+  }
+
+}

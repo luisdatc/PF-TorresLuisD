@@ -1,0 +1,51 @@
+.contact-section {
+  padding: 2rem 2rem;
+}
+
+.contact-img {
+  padding: 2rem 2rem;
+}
+
+.form-tittle {
+  text-align: center;
+  font-size: 4rem;
+  color: $color1;
+  font-weight: 700;
+}
+.section-form {
+  margin: auto;
+}
+
+.form-check-label {
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.button-section {
+  text-align: center;
+  padding: 1rem 0;
+  .contact-button {
+    font-size: 3rem;
+    padding: 0rem 3rem;
+    &:hover {
+      background-color: $color5;
+    }
+  }
+}
+
+.dark .form-tittle {
+  color: $color5;
+}
+
+.dark .form-label {
+  color: $color5;
+}
+
+@media (max-width: 767px) {
+  .contact-img {
+    display: none;
+  }
+  .navbar-toggler {
+    font-size: 2.5rem;
+  }
+}

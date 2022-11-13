@@ -1,0 +1,47 @@
+$body-bg: white;
+
+$navbar-brand-font-size: 2.5rem;
+$navbar-light-brand-color: $color5;
+$navbar-light-brand-hover-color: $color1;
+
+$nav-link-font-size: 2rem;
+$nav-link-font-weight: 700;
+$navbar-nav-link-padding-x: 1.5rem;
+
+$nav-link-color: $color5;
+
+$btn-close-width: 2rem;
+$btn-close-color: red;
+$btn-close-opacity: 1;
+
+$navbar-light-active-color: gold;
+/*$input-bg:  $color5;*/
+
+$navbar-light-toggler-border-color: $color5;
+
+$carousel-control-icon-width: 5rem;
+$carousel-control-opacity: 0.8;
+
+$btn-font-size: 3rem;
+$btn-padding-x: 1.5rem;
+$btn-font-family: "Dongle", sans-serif;
+$btn-font-weight: 300;
+$primary: $color1;
+
+$form-label-color: $color1;
+$form-label-font-weight: 700;
+$input-placeholder-color: $color5;
+$input-focus-border-color: $color5;
+$input-focus-box-shadow: 5px 5px 5px 0px $color5;
+
+$form-text-font-size: 2rem;
+$form-label-font-size: 2rem;
+$input-font-size: 2rem;
+
+$form-select-font-size: 2rem;
+$form-select-font-weight: 700;
+$form-select-color: $color5;
+$form-select-indicator-color: $color1;
+$form-select-focus-box-shadow: 5px 5px 5px 0px $color5;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
